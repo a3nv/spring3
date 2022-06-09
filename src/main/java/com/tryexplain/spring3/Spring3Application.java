@@ -1,4 +1,4 @@
-package com.tryexplain.spring6;
+package com.tryexplain.spring3;
 
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,12 +16,12 @@ import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 import java.util.List;
 
 @SpringBootApplication
-public class Spring6Application {
+public class Spring3Application {
 
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
 
     public static void main(String[] args) {
-        SpringApplication.run(Spring6Application.class, args);
+        SpringApplication.run(Spring3Application.class, args);
     }
 
     @Bean
